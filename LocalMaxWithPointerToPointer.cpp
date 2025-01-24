@@ -147,10 +147,21 @@ int main(int argc, char** argv) {
 	else{
 		cout<<"yerel maksimum = "<<bastir<<endl;
 	}
-	
+		for(i=0;i<*satir;i++){
+			
+			delete [] *(dizi+i);
+			
+		}
+		delete[] dizi;
+		
+		
 	delete satir;
 	
 	delete sutun;
+	
+
+	
+	
 	
 	return 0;
 }
