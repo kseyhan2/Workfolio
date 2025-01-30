@@ -1,3 +1,15 @@
+
+
+% This code calculates the normalized impedance and reflection coefficient (Gamma)  
+% for a given load impedance (ZL) and plots them on the Smith Chart.  
+% It also highlights specific points to analyze impedance transformation.  
+
+% Note: The 'smithchart' function has been deprecated in newer versions of MATLAB.
+% It is recommended to use the 'smithplot' function instead for Smith Chart visualization.
+
+
+
+
 clear all;
 freq=10*10^9;
 zl=131-114j;
