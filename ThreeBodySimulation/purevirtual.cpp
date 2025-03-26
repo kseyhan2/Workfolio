@@ -1,0 +1,1 @@
+#include "purevirtual.h"
